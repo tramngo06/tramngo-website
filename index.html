@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- boxicon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <!-- 1. HEADER: HOME, porfolio, ABOUT, CONTACT-->
+    <header class="header">
+
+        <a href="" class="logo">Porfolio</a>
+        <i class='bx bx-menu-alt-left' id="menu-icon" ></i>
+
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#porfolio">Porfolio</a>
+            <a href="#projects">Project</a>
+            <a href="#contact">Contact</a>
+    
+        </nav>
+
+    </header>
+    <!--  Home section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I'm </h3>
+            <h1>Tram Ngo</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p> I have a strong passion on Data Analyst and Software Engineer. I love exploring and trying new things. I also love traveling and enjoy the food of every different culture. In my free time, I spend on playing piano and learning new languages.  </p>
+            <!-- social media icon-->
+            <div class="social-media">
+                <a href="https://www.facebook.com/bichtram.ngothi.75/" target=”_blank”><i class='bx bxl-facebook' ></i></a>
+                <a href="https://www.linkedin.com/in/tram-ngo-87613a242/" target=”_blank”><i class='bx bxl-linkedin' ></i></a>
+                <a href="tramthibichngo@gmail.com" target=”_blank”><i class='bx bx-envelope' ></i></a>
+                <a href="https://github.com/tramngo06" target=”_blank”><i class='bx bxl-github'></i></a>
+            </div>
+            <a href="" class="btn"> Download Resume</a>
+
+        </div>
+
+        <div class="home-img">
+            <img src="Subject.png" alt="Resume Img">
+        </div>
+
+    </section>
+
+    <!-- 2.ABOUT SECTION-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="Subject.png" alt="">
+        </div>
+     <!-- paragraph of myself-->
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>My name is Tram Ngo, I currently live in Galesburg, Illinois. And here is my journey of being a tech girly.</h3>
+            <p>
+                I started my journey on coding when I met my mom’s friend when I was in high school in Viet Nam. She’s a brilliant full-stack developer. I had a chance to visit your work office and she showed me everything she does in coding, which I found really cool. I love the feeling of learning how to code and create every brilliant product by just typing on the computer. I started to learn Python when I was a senior in high school, and tried to solve some coding problems. They were hard, of course, but I love the feeling after solving them. <br>
+           
+            </p>
+            <p id="aboutmore" style="display: none;">
+                Beside coding, I also love math and statistics. I realized I’m a type of person who is easy to work with numbers and interpret them, even though they're the subject people think are boring and dry. One day, I just made a random decision and told my parents that I want to apply to a gifted school. At first, they didn’t think it wasn’t a good idea because I barely prepared anything before applying. Seeing a lot of students who already had their own path to apply for that school makes me jealous but also motivated. I told myself “What if I just tried as hard as I can, if it doesn’t work out then it would be an experience for me to get better”. And I got in, I got into the gifted math program, but the score is almost the last list among other students. Before college, I already knew that I would be studying Data Science or anything related to Computer Science. I wasn’t sure what I was going to do with my future at that time because I didn’t know where to start. That’s why people say college is one of the biggest steps in life. I learned so many new things in coding like different programming languages (Java, C#, SQL,...), machine learning, and data analysis. I started with a small Machine Learning project in Python, it’s called “Twitter Text Sentiment”, which is described clearly under the Project section. Professor at school also helped me with brainstorming and showed me a lot of helpful sources. Besides, I also want to try more Front-end developers by making this personal portfolio using HTML, CSS, and Javascript. I know I’m not a good planner, I’m just a person who follows her own interests and wants to learn a lot about it. The more I learn, the more passion I get in this field. And I am ready to explore more. I’m not scared of failure, I believe failure is what life means to make a person become a better version of themselves. And that’s why I’m here, in another whole country across from home, meeting new people, trying new things, and continuing my endless journey.
+            </p>
+
+            <button onclick=" myFunction('aboutmore','aboutBtn')" class="btn" id="aboutBtn">Read more</button>
+
+        </div>
+    </section>
+
+    <!-- 3.PROFORLIO SECTION-->
+    <section class="porfolio" id="porfolio">
+        <h2 class="heading">My <span>Porfolio</span></h2>
+        <!-- list of the porfolio here-->
+
+        <div class="porfolio-container">
+            <div class="porfolio-box">
+                <img src="https://www.knox.edu//images/News/OldNews/news_media/img/2021/Old_Main2108173501-ss.jpg" alt="">
+                <i class='bx bxs-school'></i>
+                <h3>Education</h3>
+                <p>Knox College</p>
+                <a href="https://en.wikipedia.org/wiki/Knox_College_(Illinois)" class="btn" target="_blank">Read More</a>
+            </div>
+
+            <div class="porfolio-box">
+                <img src="https://etimg.etb2bimg.com/photo/96180763.cms" alt="">
+                <i class='bx bx-code-alt' ></i>
+                <h3>Skills</h3>
+                <p id="skillmore" style="display: none;">
+                    <ul>
+                        <li><b>Language:</b> Java, Python, C#, C++, HTML, CSS, Ruby, Clojure, Javascript, SQL, .NET</li>
+                        <li><b>Techniques:</b> R-studio, MySQL, MATLAB, Wolfram Mathematica, Excel/Powerpoint/Word/Outlook , HTTP, Web API,
+                            Mathematics/Statistics, Machine Learning, Microsoft Office, Tableau, Visual Studio Code, Github, Jupyter Notebook, SQLite, NET
+                            programming, Relational Database</li>
+                        <li><b>Soft skills:</b> Data Analysis, Object Oriented Programming, Written and Verbal Communication, Critical Thinking, Business Acumen,
+                            Analytical Skill, Leadership, Teamwork, Time Management, Technical Problem Solving, Number Crunching, Engineer Discipline,
+                            Quick Learner, Strong Analytical Skill, Detail-oriented, Interpersonal skills</li>
+                      </ul>
+                </p>
+                <button onclick=" myFunction('skillmore','skillBtn')" class="btn" id="skillBtn">Read more</button>
+            </div>
+
+            <div class="porfolio-box">
+                <img src="https://d1m75rqqgidzqn.cloudfront.net/wp-data/2021/06/08121338/shutterstock_1714491562.jpg" alt="">
+                <i class='bx bx-bar-chart-alt' ></i>
+                <h3>Professional Experience</h3>
+                <p id="exmore" style="display: none;">
+                    <ul>
+                        <li>Computer Science, Statistics, and Mathematics Teaching Assistant </li>
+                        <li>Information Technology Helpdesk</li>
+                        <li>Technical Services Assistant</li>
+                        <li>Head of Logistic Team</li>
+                    </ul>
+                </p>
+                <button onclick="myFunction('exmore','exBtn')" class="btn" id='exBtn'>Read more</button>
+            </div>
+        </div>
+    </section>
+    <!--4. PROJECTS -->
+    <section class="projects" id="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+
+        <div class="projects-container">
+            <div class="projects-box">
+                <img src="https://www.springboard.com/blog/wp-content/uploads/2022/09/coding-skills.jpg" alt="">
+                <div class="projects-layer">
+                    <h4>Twitter Text Sentiment Classification</h4>
+                    <p>In this project, we will use Twitter-roBERTa-base for Sentiment Analysis. In other words, we will train the model which is able to evaluate if the text on Twitter is positive, negative, or neural.</p>
+                    <a href="#"><i class='bx bx-code-alt' ></i></a>
+                </div>           
+            </div>      
+
+            <div class="projects-box">
+                <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Data_Analystim.jpg" alt="">
+                <div class="projects-layer">
+                    <h4>Password Generator project</h4>
+                    <p> Create a random password with desired length, characters for each client. Test if the password is good.</p>
+                    <a href="#"><i class='bx bx-code-alt' ></i></a>
+                </div>           
+            </div>   
+
+
+            <div class="projects-box">
+                <img src="https://www.careergirls.org/wp-content/uploads/2015/06/Computer_Programmer1920X10180.jpg" alt="">
+                <div class="projects-layer">
+                    <h4>C# Web Server</h4>
+                    <p> Customizable C# server; serves HTML, handles threads, and manages configurations.</p>
+                    <a href="#"><i class='bx bx-code-alt' ></i></a>
+                </div>           
+            </div>   
+
+
+
+            <div class="projects-box">
+                <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Deep-Learning-vs-Machine-Learning.jpg" alt="">
+                <div class="projects-layer">
+                    <h4>Identify Good Customer project</h4>
+                    <p> A Data Analysis project: Analyzed bank client data; visualized; predicted term deposit purchases; evaluated models and forecasts using R-Studio and Data Science </p>
+                    <a href="#"><i class='bx bx-code-alt' ></i></a>
+                </div>           
+            </div>   
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Email Subject">
+
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Send A Message For Me"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+
+            
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p> &copy; 2024 Tram Ngo | All rights reserved</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </footer>
+
+    <!-- -----scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js  -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    
+
+
+    <!-- -----javascript edit -->
+    <script src="script.js"></script>
+    
+</body>
+</html>
