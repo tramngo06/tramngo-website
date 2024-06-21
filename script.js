@@ -64,7 +64,7 @@ function myFunction(contentId, btnId) {
     var btnText = document.getElementById(btnId);
   
     if (moreText.style.display === "none" || moreText.style.display === "") {
-        moreText.style.display = "inline";
+        moreText.style.display = "block";
         btnText.innerHTML = "Read less"; 
     } else {
         moreText.style.display = "none";
